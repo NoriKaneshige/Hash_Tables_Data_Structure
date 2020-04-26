@@ -2,6 +2,7 @@
 
 
 > ## hash function: :cry: 
+``` js
 function hash(key, arrayLen) {
   let total = 0;
   for (let char of key) {
@@ -11,9 +12,10 @@ function hash(key, arrayLen) {
   }
   return total;
 }
+```
 
 > ## hash function, improved version: :smile:
-
+``` js
 function hash(key, arrayLen) {
   let total = 0;
   let WEIRD_PRIME = 31;
@@ -24,10 +26,11 @@ function hash(key, arrayLen) {
   }
   return total;
 }
-
+```
 
 > ## Hash Table Implementation: :wink:
 > hash(), set(), get(), keys(), values()
+``` js
 class HashTable {
   constructor(size=53){
     this.keyMap = new Array(size);
@@ -161,6 +164,13 @@ console.log(ht.values())
 //   '#C71585'
 // ]
 
-
+```
+![hashing](https://github.com/NoriKaneshige/Hash_Tables_Data_Structure/blob/master/hashing.png)
+![hash_tables](https://github.com/NoriKaneshige/Hash_Tables_Data_Structure/blob/master/hash_tables.png)
+![separate_chaining](https://github.com/NoriKaneshige/Hash_Tables_Data_Structure/blob/master/separate_chaining.png)
+![linear_probing](https://github.com/NoriKaneshige/Hash_Tables_Data_Structure/blob/master/linear_probing.png)
+![hash_tables_set_get](https://github.com/NoriKaneshige/Hash_Tables_Data_Structure/blob/master/hash_tables_set_get.png)
+![hash_tables_keys_values](https://github.com/NoriKaneshige/Hash_Tables_Data_Structure/blob/master/hash_tables_keys_values.png)
+![hash_tables_bigO](https://github.com/NoriKaneshige/Hash_Tables_Data_Structure/blob/master/hash_tables_bigO.png)
 
 
